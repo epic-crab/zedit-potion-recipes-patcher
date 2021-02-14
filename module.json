@@ -1,0 +1,12 @@
+{
+  "id": "mlqAlchemistsCookbookPatcher",
+  "name": "The Alchemist's Cookbook Patcher",
+  "author": "MLQ",
+  "version": "1.0.0",
+  "released": "2/2/2021",
+  "updated": "2/2/2021",
+  "description": "Generates recipes for the Alchemist's Cookbook mod for all ingredients.",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}

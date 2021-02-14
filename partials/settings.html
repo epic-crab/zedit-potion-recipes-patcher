@@ -1,0 +1,28 @@
+<h2>The Alchemist's Cookbook</h2>
+
+<div>
+    <input type="text" ng-model="settings.mlqAlchemistsCookbookPatcher.impureThreshold" size="1" />
+    <span>Impure Threshold</span>
+    <br>
+    <span>"Impure" potions and poisons are created from combinations of ingredients that have matching beneficial and harmful ingredients.</span>
+    <br>
+    <span>An impure potion must have at least this many beneficial effects (harmful effects for poisons) to create a recipe for it.</span>
+    <br>
+	<span>The default is 3, to keep the recipe lists from being inflated with garbage that doesn't help the player.</span>
+    <br>
+	<input type="checkbox" ng-model="settings.mlqAlchemistsCookbookPatcher.excludeJarrinRoot" />
+    <span>Exclude Jarrin Root</span>
+    <br>
+	<span>If checked, no recipes will be generated from Jarrin Root, due to there only being one sample in the vanilla game.</span>
+    <br>
+	<input type="checkbox" ng-model="settings.mlqAlchemistsCookbookPatcher.excludeSaSItems" />
+    <span>Exclude Saints and Seducers Ingredients</span>
+    <br>
+	<span>New ingredients for Saints and Seducers are added to Update.esm. If checked, the patcher will not generate recipes for these ingredients, since they are not normally obtainable without the creation.</span>
+    <br>
+	<input type="checkbox" ng-model="settings.mlqAlchemistsCookbookPatcher.showDebugMessages" />
+    <span>Verbose Logging</span>
+    <br>
+	<span>The patcher will log what it is doing. Useful for interpreting the progress bar.</span>
+    <br>
+</div>
